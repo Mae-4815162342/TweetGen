@@ -1,9 +1,9 @@
 #this file contains code to generate tweets from a Trump dataset.
 
-#main will evaluate from a word which word appears most afterwards in the dataset,
+#simple_higher_freq will evaluate from a word which word appears most afterwards in the dataset,
 #therefore building a tweet from a statistical approach
 
-#main_2 choses the next word randomly in the list of the next words, the tweet is built from a random approach
+#simple_rand choses the next word randomly in the list of the next words, the tweet is built from a random approach
 
 import pandas as pd
 import random
@@ -91,7 +91,7 @@ def get_next_word_naive_impl_2(word, text, used_words, lim_per_word):
     return words_next[rand]
 
 
-def main():
+def simple_higher_freq():
     text = get_clean_text()
     current_word = "Good"
     res = ""
@@ -108,7 +108,7 @@ def main():
         current_word = get_next_word_naive_impl(current_word, text, used_words, lim_per_word)
     print(res)
 
-def main_2():
+def simple_rand():
     text = get_clean_text()
     current_word = "Make"
     res = ""
@@ -125,5 +125,3 @@ def main_2():
         current_word = get_next_word_naive_impl_2(current_word, text, used_words, lim_per_word)
     print(res)
 
-main()
-main_2()
