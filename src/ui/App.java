@@ -17,7 +17,7 @@ public class App extends Application{
     private Scene loading;
     private LoadingController loadingController;
     private Scene generate;
-    private LoadingController generateController;
+    private GenerateViewController generateController;
 
     public static void main(String[] args) {
         launch(args);
@@ -26,7 +26,7 @@ public class App extends Application{
     @Override
     public void start(Stage st) {
         stage = st;
-        api = new PythonApi();
+        api = new PythonApi(this, "C:/Users/maely/AppData/Local/Programs/Python/Python310/python.exe");
         try {
             FXMLLoader loadHome = new FXMLLoader(getClass().getResource("view/Home.fxml"));
             home = new Scene(loadHome.load());
@@ -58,7 +58,7 @@ public class App extends Application{
         try {
             FXMLLoader generateLoading = new FXMLLoader(getClass().getResource("view/GenerateView.fxml"));
             generate = new Scene(generateLoading.load());
-            generateController = (LoadingController) generateLoading.getController();
+            generateController = (GenerateViewController)generateLoading.getController();
             generateController.setApp(this);
         } catch (Exception e) {
             e.printStackTrace();
@@ -71,16 +71,35 @@ public class App extends Application{
         }
         stage.setScene(loading);
         stage.show();
-        String res = api.getTest(value);
-        loadingController.setText(res);
-        //this.switchToGenerate(res);
+        api.getTest(value);
     }
 
-    public void switchToGenerate(String...res) {
+    public void updateTest(String val) {
+        this.switchToGenerate(val);
+    }
+
+    public void switchToGenerate(String val) {
         if(generate == null) {
-            this.setLoadingView();
+            this.setGenerateView();
         }
+        this.generateController.setUsername(val);
         stage.setScene(generate);
         stage.show();
+    }
+
+    public void updateTweet(String val) {
+        this.generateController.setTweet(val);
+    }
+
+    public void executeAlgorithm(String algorithm, String arg) {
+        if(arg == null) {
+            this.api.executeAlgorithm(algorithm);
+        } else {
+            this.api.executeAlgorithm(algorithm, arg);
+        }
+    }
+
+    public void setAlgoInExecution(Boolean bool) {
+        generateController.setAlgoInExecution(bool);
     }
 }

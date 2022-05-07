@@ -5,7 +5,6 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.controller.LoadingController">
    <children>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="224.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
@@ -14,5 +13,10 @@
          </image>
       </ImageView>
       <Label fx:id="loadingEtiquette" layoutX="276.0" layoutY="255.0" text="Loading..." />
+      <ImageView fitHeight="59.0" fitWidth="50.0" layoutX="266.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/running.gif" />
+         </image>
+      </ImageView>
    </children>
 </Pane>

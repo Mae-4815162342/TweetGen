@@ -10,14 +10,12 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GenerateViewController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.controller.GenerateViewController">
    <children>
       <Rectangle arcHeight="25.0" arcWidth="25.0" fill="WHITE" height="338.0" layoutX="31.0" layoutY="33.0" stroke="#cfd9de" strokeType="INSIDE" width="543.0" />
       <Line endX="442.0" layoutX="115.0" layoutY="329.0" startX="-67.0" stroke="#cfd9de" />
-      <Button layoutX="369.0" layoutY="340.0" mnemonicParsing="false" text="Button" />
-      <ChoiceBox layoutX="210.0" layoutY="340.0" prefWidth="150.0" />
-      <Button layoutX="450.0" layoutY="340.0" mnemonicParsing="false" text="Button" />
+      <ChoiceBox fx:id="algorithmChoice" layoutX="210.0" layoutY="340.0" prefWidth="150.0" />
+      <Button fx:id="generateButton" layoutX="488.0" layoutY="340.0" mnemonicParsing="false" onAction="#generateTweet" text="Generate" />
       <Label layoutX="92.0" layoutY="49.0" text="TweetGen">
          <font>
             <Font name="Calibri Bold" size="20.0" />
@@ -46,6 +44,33 @@
       <ImageView fitHeight="32.0" fitWidth="197.0" layoutX="49.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../assets/like_and_retweet.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="WHITE" height="192.0" layoutX="46.0" layoutY="102.0" stroke="#cfd9de" strokeType="INSIDE" width="510.0" />
+      <Label fx:id="usernameLabel" layoutX="89.0" layoutY="103.0" text="Label">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="22.0" fitWidth="31.0" layoutX="57.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/user_pic.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="userId" layoutX="86.0" layoutY="121.0" text="\@label" textFill="#536470">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="tweetLabel" alignment="TOP_LEFT" layoutX="54.0" layoutY="147.0" prefHeight="139.0" prefWidth="496.0" text="Please select an algorithm in order to generate your first tweet !" textFill="#133f43" wrapText="true">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="selectArg" layoutX="370.0" layoutY="340.0" prefHeight="25.0" prefWidth="102.0" />
+      <ImageView fx:id="waitingForExec" fitHeight="150.0" fitWidth="200.0" layoutX="220.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/running.gif" />
          </image>
       </ImageView>
    </children>
