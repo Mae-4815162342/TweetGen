@@ -1,0 +1,30 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name":"Python : Fichier actuel",
+            "type":"python",
+            "request":"launch",
+            "program":"${file}",
+            "console":"integratedTerminal",
+            "justMyCode":true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/maely/Downloads/openjfx-17.0.1_windows-x64_bin-sdk/javafx-sdk-17.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "ui.App",
+            "projectName": "TweetGen_9def42b1"
+        }
+    ]
+}
