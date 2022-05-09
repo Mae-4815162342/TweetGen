@@ -2,10 +2,6 @@ package api.utils;
 
 import java.io.*;
 import java.util.Arrays;
-
-import org.python.core.PyObject;
-import org.python.core.imp;
-
 import javafx.concurrent.Task;
 
 public class ScriptExecutor extends Task<String>{

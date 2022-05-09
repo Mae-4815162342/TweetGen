@@ -3,7 +3,7 @@ import pandas as pd
 import sys
 
 def markov_chain(state_size):
-    file = pd.read_csv("./assets/realdonaldtrump.csv")
+    file = pd.read_csv("./src/data/tweets.csv")
     tweets = '\n'.join(file['content'])
 
     model = markovify.Text(tweets, state_size = int(state_size))

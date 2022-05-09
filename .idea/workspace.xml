@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f1def2b-9391-449f-8a31-fade30274bc8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/markov_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/simple_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/PythonApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/PythonApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/utils/ScriptExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/utils/ScriptExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/GenerateViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/controller/GenerateViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/view/GenerateView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/view/GenerateView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/view/LoadingView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/view/LoadingView.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="5f1def2b-9391-449f-8a31-fade30274bc8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

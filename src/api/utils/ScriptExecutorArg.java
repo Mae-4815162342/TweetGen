@@ -1,15 +1,7 @@
 package api.utils;
 
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
-import java.util.Hashtable;
-
-import org.python.core.PyObject;
-import org.python.core.PyString;
-import org.python.core.imp;
-import org.python.util.PythonInterpreter;
-
 
 import javafx.concurrent.Task;
 

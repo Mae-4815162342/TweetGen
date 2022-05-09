@@ -6,7 +6,7 @@ import pandas as pd
 def read_file():
     pd.options.display.max_columns = None
     pd.options.display.max_rows = None
-    return pd.read_csv("./assets/realdonaldtrump.csv")
+    return pd.read_csv("./src/data/tweets.csv")
 
 
 def get_text_from_data(file):

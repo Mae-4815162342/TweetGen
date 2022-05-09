@@ -18,6 +18,7 @@ public class App extends Application{
     private LoadingController loadingController;
     private Scene generate;
     private GenerateViewController generateController;
+    private final String pythonPath = "C:/Users/maely/AppData/Local/Programs/Python/Python310/python.exe";
 
     public static void main(String[] args) {
         launch(args);
@@ -26,7 +27,7 @@ public class App extends Application{
     @Override
     public void start(Stage st) {
         stage = st;
-        api = new PythonApi(this, "C:/Users/maely/AppData/Local/Programs/Python/Python310/python.exe");
+        api = new PythonApi(this, pythonPath);
         try {
             FXMLLoader loadHome = new FXMLLoader(getClass().getResource("view/Home.fxml"));
             home = new Scene(loadHome.load());
@@ -41,6 +42,11 @@ public class App extends Application{
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public void goHome() {
+        stage.setScene(home);
+        stage.show();
     }
 
     public void setLoadingView() {
@@ -65,17 +71,28 @@ public class App extends Application{
         }
     }
 
-    public void switchToLoading(String value) {
+    public void switchToLoading(String name) {
         if(loading == null) {
             this.setLoadingView();
         }
+        loadingController.setError(false, null);
         stage.setScene(loading);
         stage.show();
-        api.getTest(value);
+        api.scrap(name);
     }
 
-    public void updateTest(String val) {
-        this.switchToGenerate(val);
+    public void updateScrap(String val) {
+        String typeOfVal = val.split("=")[0];
+        switch(typeOfVal) {
+            case "name":
+                this.switchToGenerate(val.split("=")[1]);
+                break;
+            case "error":
+                loadingController.setError(true, val.split("=")[1]);
+                break;
+            default: 
+                loadingController.setError(true, "Oups...Seems like the Artificial Intelligence is not as intelligent as it claims to be...An error occured during the data's acquisition, please try again");
+        }
     }
 
     public void switchToGenerate(String val) {

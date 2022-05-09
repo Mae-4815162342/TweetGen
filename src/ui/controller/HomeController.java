@@ -26,7 +26,7 @@ public class HomeController {
     @FXML
     void goButtonPushed(ActionEvent event) {
         if(twitterAccountName.getText().length() == 0) {
-            errorLabel.setText("Shoot ! This account doesn't seem to exist :,(");
+            errorLabel.setText("Are you trying to get data from a ghost ?");
         } else {
             errorLabel.setText("Who should we get our inspiration from today ?");
             app.switchToLoading(twitterAccountName.getText());

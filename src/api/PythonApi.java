@@ -17,15 +17,15 @@ public class PythonApi {
         this.pythonPath = python;
     }
 
-    public void getTest(String value) {
+    public void scrap(String value) {
         if(scriptTest != null && scriptTest.isRunning()) {
             scriptTest.cancel();
         }
-        scriptTest = new ScriptExecutorArg(pythonPath, "test", value);
+        scriptTest = new ScriptExecutorArg(pythonPath, "scrapping", value);
         scriptTest.valueProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue<? extends String> observableStringValue, String oldValue, String newValue) {
-                app.updateTest(newValue);
+                app.updateScrap(newValue);
             }
         });
         Thread scriptThread = new Thread(scriptTest);

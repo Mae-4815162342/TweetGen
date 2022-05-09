@@ -38,6 +38,9 @@ public class GenerateViewController {
     @FXML
     private ImageView waitingForExec;
 
+    @FXML
+    private Button goHomeButton;
+
     public void setApp(App a) {
         this.app = a;
         this.algorithmChoice.getItems().addAll(algorithms);
@@ -79,6 +82,10 @@ public class GenerateViewController {
                 app.executeAlgorithm(this.chosenAlgorithm, null);
             }
         }
+    }
+
+    public void goHome(ActionEvent event) {
+        app.goHome();
     }
 
     public void setTweet(String val) {
