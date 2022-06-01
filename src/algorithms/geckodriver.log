@@ -7,8 +7,9 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://localhost:63757/devtools/browser/b82f42e4-7012-453e-afeb-309dc16774e0
 1654029802659	Marionette	INFO	Listening on port 63765
 1654029802870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1654029817864	geckodriver	INFO	Listening on 127.0.0.1:63849
-1654029820915	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "63850" "-no-remote" "-profile" "C:\\Users\\Boufo\\AppData\\Local\\Temp\\rust_mozprofilePrv757"
+Exiting due to channel error.
+Exiting due to channel error.
+54029820915	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "63850" "-no-remote" "-profile" "C:\\Users\\Boufo\\AppData\\Local\\Temp\\rust_mozprofilePrv757"
 *** You are running in headless mode.
 1654029821222	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -92,8 +93,9 @@ DevTools listening on ws://localhost:55059/devtools/browser/dcd21665-a56f-43e9-8
 
 ###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
 
-unning in headless mode.
-1654031065984	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+Exiting due to channel error.
+ette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Boufo\\AppData\\Local\\Temp\\rust_mozprofileykU2Zx\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:55287/devtools/browser/dbd77962-1120-40da-b825-6fd601ebf280
@@ -1586,3 +1588,118 @@ JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.39a7a247.
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1654116566401	geckodriver	INFO	Listening on 127.0.0.1:54298
+1654116569532	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54299" "-no-remote" "-profile" "C:\\Users\\Boufo\\AppData\\Local\\Temp\\rust_mozprofilebJURvX"
+1654116743831	geckodriver	INFO	Listening on 127.0.0.1:54449
+1654116746897	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54450" "-no-remote" "-profile" "C:\\Users\\Boufo\\AppData\\Local\\Temp\\rust_mozprofileWZ5kQ9"
+*** You are running in headless mode.
+1654116747770	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Boufo\\AppData\\Local\\Temp\\rust_mozprofileWZ5kQ9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54450/devtools/browser/794059b1-7ff8-4a13-b6ed-ce5b36e5d992
+1654116749560	Marionette	INFO	Listening on port 54457
+1654116750079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/joebiden, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.e69944d7.js)
+JavaScript error: https://twitter.com/joebiden, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.e69944d7.js)
+JavaScript error: https://twitter.com/joebiden, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.e69944d7.js)
+JavaScript error: https://twitter.com/joebiden, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.e69944d7.js)
+JavaScript error: https://twitter.com/joebiden, line 131: ChunkLoadError: Loading chunk 171 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.ac5c9dd7.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.5f66ed27.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+[Child 60384, MediaDecoderStateMachine #1] WARNING: 22e4a7e14a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 60384, MediaDecoderStateMachine #1] WARNING: 22e423c0660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 60384, MediaDecoderStateMachine #1] WARNING: 22e46e26ba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 60384, MediaDecoderStateMachine #1] WARNING: 22e473f79e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+1654116809928	Marionette	INFO	Stopped listening on port 54457
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+1654116854081	geckodriver	INFO	Listening on 127.0.0.1:54619
+1654116857153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54620" "-no-remote" "-profile" "C:\\Users\\Boufo\\AppData\\Local\\Temp\\rust_mozprofile9t59hJ"
+*** You are running in headless mode.
+1654116857697	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Boufo\\AppData\\Local\\Temp\\rust_mozprofile9t59hJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54620/devtools/browser/1854a29c-a6ac-4365-acc1-6f3ce46b5f48
+1654116859336	Marionette	INFO	Listening on port 54630
+1654116859832	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/joebiden, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.e69944d7.js)
+JavaScript error: https://twitter.com/joebiden, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.e69944d7.js)
+JavaScript error: https://twitter.com/joebiden, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.e69944d7.js)
+JavaScript error: https://twitter.com/joebiden, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.e69944d7.js)
+JavaScript error: https://twitter.com/joebiden, line 131: ChunkLoadError: Loading chunk 171 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.ac5c9dd7.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.5f66ed27.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+[Child 70032, MediaDecoderStateMachine #1] WARNING: 1add7953ac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 70032, MediaDecoderStateMachine #1] WARNING: 1add222c580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 70032, MediaDecoderStateMachine #1] WARNING: 1add059fba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 70032, MediaDecoderStateMachine #1] WARNING: 1add9262ba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 70032, MediaDecoderStateMachine #1] WARNING: 1add7acb740 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 70032, MediaDecoderStateMachine #1] WARNING: 1add9174040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 70032, MediaDecoderStateMachine #1] WARNING: 1add02833c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 70032, MediaDecoderStateMachine #1] WARNING: 1add9564580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 70032, MediaDecoderStateMachine #1] WARNING: 1ade2efc580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 70032, MediaDecoderStateMachine #1] WARNING: 1ade2eaf200 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 70032, MediaDecoderStateMachine #1] WARNING: 1add8de23c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+1654117695329	Marionette	INFO	Stopped listening on port 54630
+1654118008541	geckodriver	INFO	Listening on 127.0.0.1:56699
+1654118011665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56700" "-no-remote" "-profile" "C:\\Users\\Boufo\\AppData\\Local\\Temp\\rust_mozprofile8nxboV"
+*** You are running in headless mode.
+1654118012248	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Boufo\\AppData\\Local\\Temp\\rust_mozprofile8nxboV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56700/devtools/browser/a7579aca-61ca-4653-8016-d28dd98a4dd3
+1654118013563	Marionette	INFO	Listening on port 56708
+1654118013721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175b4656d60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175b653d040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175ba8c1f20 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175baaa5d60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175ba5e7c80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175c4135660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175c460dd60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175bda78c80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175c46983c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175c488d040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175ce444c80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175ce4bcf20 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175c1fef040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175c0d97900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175d7f44ba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175c76a0ba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175d77973c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175d6cc7740 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175e1aab660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175c1c50e40 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175c8ca1580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175c1db99e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175d883d580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175d785fd60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175c7e253c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175d580e660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175d580eba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175e89fac80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175d8a80e40 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175d8a2b120 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175cf16a740 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175debac2e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175dbc9b2e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 43328, MediaDecoderStateMachine #1] WARNING: 175ba7b59e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+1654118723105	Marionette	INFO	Stopped listening on port 56708

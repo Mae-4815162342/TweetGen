@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f1def2b-9391-449f-8a31-fade30274bc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TweetGen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TweetGen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5f1def2b-9391-449f-8a31-fade30274bc8" name="Changes" comment="add scraping algo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/scrapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/scrapping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/tweets.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/tweets.csv" afterDir="false" />
     </list>
@@ -99,6 +97,14 @@
       <option name="presentableId" value="Default" />
       <updated>1650027749202</updated>
     </task>
+    <task id="LOCAL-00001" summary="add scraping algo">
+      <created>1654044208227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654044208227</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,5 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add scraping algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add scraping algo" />
   </component>
 </project>

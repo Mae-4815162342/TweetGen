@@ -34,15 +34,15 @@ class TwitterBot:
     def get_tweet(self, name):
         bot = self.bot
         url = "https://twitter.com/"
-        bot.get(url + name)
+        bot.get(url + name + "/with_replies")
         URL = bot.current_url
-        if URL != url + name :
+        if URL != url + name + "/with_replies":
             print("Error page")
             return "error= user doesnt exist"
 
         links = []
         bot.refresh()
-        for i in range(110):
+        for i in range(150):
             print(i)
             try:
                 bot.execute_script('window.scrollTo(0, document.body.scrollHeight)')
