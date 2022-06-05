@@ -11,7 +11,7 @@ import ui.App;
 public class GenerateViewController {
     public App app;
     public String username;
-    public String[] algorithms = {"rand_in_next", "highter_freq", "markov_chain"};
+    public String[] algorithms = {"rand_in_next", "highter_freq", "markov_chain","most_likely"};
     public String[] markovArgs = {"1", "2", "3", "4", "5"};
     public String chosenAlgorithm; 
     public String chosenArg;
