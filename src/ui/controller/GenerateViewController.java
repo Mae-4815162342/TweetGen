@@ -13,6 +13,7 @@ public class GenerateViewController {
     public String username;
     public String[] algorithms = {"rand_in_next", "highter_freq", "markov_chain","most_likely"};
     public String[] markovArgs = {"1", "2", "3", "4", "5"};
+    public String[] gansArgs = {"10", "20", "30", "40", "50"};
     public String chosenAlgorithm; 
     public String chosenArg;
     public Boolean hasArg = false;
@@ -60,6 +61,11 @@ public class GenerateViewController {
         if(this.chosenAlgorithm.equals("markov_chain")) {
             this.selectArg.getItems().addAll(this.markovArgs);
             this.selectArg.setOnAction(this::markovSelectArg);
+            this.selectArg.setVisible(true);
+            this.hasArg = true;
+        } else if(this.chosenAlgorithm.equals("gans")) {
+            this.selectArg.getItems().addAll(this.gansArgs);
+            //this.selectArg.setOnAction(this::gansArg);
             this.selectArg.setVisible(true);
             this.hasArg = true;
         } else {

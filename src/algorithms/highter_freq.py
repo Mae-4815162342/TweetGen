@@ -2,7 +2,6 @@ import pandas as pd
 
 #higher_freq will evaluate from a word which word appears most afterwards in the dataset,
 #therefore building a tweet from a statistical approach
-
 def read_file():
     pd.options.display.max_columns = None
     pd.options.display.max_rows = None
@@ -33,6 +32,7 @@ def get_clean_text():
     tab = get_text_from_data(file)
     return clean_tab(tab)
 
+
 def get_next_word_naive_impl(word, text, used_words, lim_per_word):
     all_words_in_tab = [t.split(" ") for t in text]
     all_words = []
@@ -62,7 +62,7 @@ def get_next_word_naive_impl(word, text, used_words, lim_per_word):
 
 
 def highter_freq():
-    text = get_clean_text()
+    text = pd.read_csv("./src/data/tweets.csv")
     current_word = "Make"
     res = ""
     i = 0
