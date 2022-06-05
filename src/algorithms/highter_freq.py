@@ -1,45 +1,18 @@
 import pandas as pd
+import numpy as np
+import random 
 
 #higher_freq will evaluate from a word which word appears most afterwards in the dataset,
 #therefore building a tweet from a statistical approach
 
-def read_file():
-    pd.options.display.max_columns = None
-    pd.options.display.max_rows = None
-    return pd.read_csv("./src/data/tweets.csv")
+#returns a table with the text
+def get_text_table():
+    datas = pd.read_csv("./src/data/cleaned.csv")
+    return (' '.join(datas[datas.columns[1]])).split()
 
-
-def get_text_from_data(file):
-    return file['content']
-
-
-
-def clean_line(text):
-    res = text.split("http://")
-    res = res[0].split("https://")
-    res = res[0].split("@ ")
-    res = [c for c in res[0] if (c != '"') & (c != "'") & (c != "-")]
-    return "".join(res)
-
-
-def clean_tab(tab):
-    res = []
-    for text in tab:
-        res.append(clean_line(text))
-    return res
-
-def get_clean_text():
-    file = read_file()
-    tab = get_text_from_data(file)
-    return clean_tab(tab)
-
-def get_next_word_naive_impl(word, text, used_words, lim_per_word):
-    all_words_in_tab = [t.split(" ") for t in text]
-    all_words = []
+def get_next_word_naive_impl(word, all_words, used_words, lim_per_word):
     words_next = {}
     next_word = False
-    for tab in all_words_in_tab:
-        all_words.extend(tab)
     for w in all_words:
         if next_word:
             if w in words_next:
@@ -62,8 +35,9 @@ def get_next_word_naive_impl(word, text, used_words, lim_per_word):
 
 
 def highter_freq():
-    text = get_clean_text()
-    current_word = "Make"
+    text = get_text_table()
+    rand = random.randint(0, len(text) - 1)
+    current_word = text[rand]
     res = ""
     i = 0
     used_words = {}

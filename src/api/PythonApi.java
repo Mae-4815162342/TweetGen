@@ -17,18 +17,35 @@ public class PythonApi {
         this.pythonPath = python;
     }
 
-    public void scrap(String value) {
-        if(scriptTest != null && scriptTest.isRunning()) {
-            scriptTest.cancel();
+    public void clean(String value) {
+        if(script != null && script.isRunning()) {
+            script.cancel();
         }
-        scriptTest = new ScriptExecutorArg(pythonPath, "scrapping", value);
-        scriptTest.valueProperty().addListener(new ChangeListener<String>() {
+        script = new ScriptExecutorArg(pythonPath, "clean", value);
+        script.valueProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue<? extends String> observableStringValue, String oldValue, String newValue) {
+                app.updateClean(newValue);
+            }
+        });
+        Thread scriptThread = new Thread(script);
+        scriptThread.setDaemon(true);
+        scriptThread.start();
+    }
+
+    public void scrap(String value) {
+        if(script != null && script.isRunning()) {
+            script.cancel();
+        }
+        script = new ScriptExecutorArg(pythonPath, "scrapping", value);
+        script.valueProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue<? extends String> observableStringValue, String oldValue, String newValue) {
+                System.out.print(newValue);
                 app.updateScrap(newValue);
             }
         });
-        Thread scriptThread = new Thread(scriptTest);
+        Thread scriptThread = new Thread(script);
         scriptThread.setDaemon(true);
         scriptThread.start();
     }
