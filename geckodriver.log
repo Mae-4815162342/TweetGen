@@ -1,0 +1,334 @@
+1654466290778	geckodriver	INFO	Listening on 127.0.0.1:60059
+1654466293871	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "60060" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileVyty2b"
+*** You are running in headless mode.
+1654466294937	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60060
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileVyty2b\\search.json.mozlz4", (void 0)))
+1654466298629	Marionette	INFO	Listening on port 60089
+Read port: 60089
+1654466298757	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:60060/devtools/browser/6e8b8ff7-0209-43a7-821a-d1564badcc1e
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.3de2f607.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+1654468347499	geckodriver	INFO	Listening on 127.0.0.1:49854
+1654468350579	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "49855" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileG2AG0b"
+*** You are running in headless mode.
+1654468351225	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49855
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileG2AG0b\\search.json.mozlz4", (void 0)))
+1654468353070	Marionette	INFO	Listening on port 49878
+DevTools listening on ws://localhost:49855/devtools/browser/8516b0b0-9a78-441f-a105-56978290bfbf
+Read port: 49878
+1654468353147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654468423681	geckodriver	INFO	Listening on 127.0.0.1:49922
+1654468426746	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "49923" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileTuF1iw"
+*** You are running in headless mode.
+1654468427158	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49923
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileTuF1iw\\search.json.mozlz4", (void 0)))
+1654468428615	Marionette	INFO	Listening on port 49946
+Read port: 49946
+DevTools listening on ws://localhost:49923/devtools/browser/91f21fc8-d243-48c0-8b59-417cdc7f5d7c
+1654468428669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/onboarding/sso_init.json HTTP-0 codes:[1004] trace_ids:[null]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-0 codes:[1004] trace_ids:[null]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/jot/ces/p2 HTTP-0 codes:[1004] trace_ids:[null]
+1654468676026	geckodriver	INFO	Listening on 127.0.0.1:50063
+1654468679101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50064" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileKjxrni"
+*** You are running in headless mode.
+1654468679542	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50064
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileKjxrni\\search.json.mozlz4", (void 0)))
+1654468680777	Marionette	INFO	Listening on port 50084
+Read port: 50084
+DevTools listening on ws://localhost:50064/devtools/browser/5a7fe3f3-ce1f-4cf9-a709-e9163a10c5c5
+1654468680809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.3de2f607.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+1654468761210	Marionette	INFO	Stopped listening on port 50084
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1654470050797	geckodriver	INFO	Listening on 127.0.0.1:49964
+1654470053867	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "49965" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofilevtkcVs"
+*** You are running in headless mode.
+1654470054443	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49965
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofilevtkcVs\\search.json.mozlz4", (void 0)))
+1654470055857	Marionette	INFO	Listening on port 49989
+DevTools listening on ws://localhost:49965/devtools/browser/b5c201f8-7f9c-48b3-8380-050efdbac3fc
+Read port: 49989
+1654470055914	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.3de2f607.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+1654470173267	Marionette	INFO	Stopped listening on port 49989
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+96" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofilezxeaMP"
+*** You are running in headless mode.
+1654470152165	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50096
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofilezxeaMP\\search.json.mozlz4", (void 0)))
+1654470153896	Marionette	INFO	Listening on port 50119
+DevTools listening on ws://localhost:50096/devtools/browser/26e4004c-a1ad-4c10-94d1-289374ba20fa
+Read port: 50119
+1654470154042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/jot/ces/p2 HTTP-0 codes:[1004] trace_ids:[null]
+1654470237609	Marionette	INFO	Stopped listening on port 50119
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1654470299208	geckodriver	INFO	Listening on 127.0.0.1:50193
+1654470302275	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50194" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileTyxEn9"
+*** You are running in headless mode.
+1654470302984	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50194
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileTyxEn9\\search.json.mozlz4", (void 0)))
+1654470304620	Marionette	INFO	Listening on port 50219
+Read port: 50219
+1654470304663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:50194/devtools/browser/1284ffe3-d755-4788-a0ab-a8e686243219
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/jot/ces/p2 HTTP-0 codes:[1004] trace_ids:[null]
+1654470437991	Marionette	INFO	Stopped listening on port 50219
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+71" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileXSfFdY"
+*** You are running in headless mode.
+1654470341048	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50271
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileXSfFdY\\search.json.mozlz4", (void 0)))
+1654470342617	Marionette	INFO	Listening on port 50293
+Read port: 50293
+DevTools listening on ws://localhost:50271/devtools/browser/19330178-b220-42ac-924b-fa435af49cfa
+1654470342733	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.3de2f607.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+1654470472576	Marionette	INFO	Stopped listening on port 50293
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1654470518855	geckodriver	INFO	Listening on 127.0.0.1:50382
+1654470521910	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileJ0ryEm"
+*** You are running in headless mode.
+1654470522386	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50383
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileJ0ryEm\\search.json.mozlz4", (void 0)))
+1654470524430	Marionette	INFO	Listening on port 50405
+Read port: 50405
+DevTools listening on ws://localhost:50383/devtools/browser/6646a125-220d-45d6-a239-65ce20402121
+1654470524512	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.3de2f607.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+1654470666425	Marionette	INFO	Stopped listening on port 50405
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+52" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileGuyMFn"
+*** You are running in headless mode.
+1654470536952	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50452
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileGuyMFn\\search.json.mozlz4", (void 0)))
+1654470538978	Marionette	INFO	Listening on port 50476
+DevTools listening on ws://localhost:50452/devtools/browser/6e56a94b-8b7e-4df2-bb02-ac67edcd345e
+Read port: 50476
+1654470539057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.3de2f607.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+1654470683373	Marionette	INFO	Stopped listening on port 50476
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1654471012930	geckodriver	INFO	Listening on 127.0.0.1:50585
+1654471015986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50586" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileTFCqVD"
+*** You are running in headless mode.
+1654471016519	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50586
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileTFCqVD\\search.json.mozlz4", (void 0)))
+1654471017982	Marionette	INFO	Listening on port 50608
+DevTools listening on ws://localhost:50586/devtools/browser/1dcf5af3-447b-470a-b481-d7a718716c28
+Read port: 50608
+1654471018051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.3de2f607.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+1654471287204	Marionette	INFO	Stopped listening on port 50608
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1654471373423	geckodriver	INFO	Listening on 127.0.0.1:50670
+1654471376492	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50671" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofilesdnSQV"
+*** You are running in headless mode.
+1654471376929	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50671
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofilesdnSQV\\search.json.mozlz4", (void 0)))
+1654471378367	Marionette	INFO	Listening on port 50696
+DevTools listening on ws://localhost:50671/devtools/browser/8c6db09f-0db7-42b5-bb88-828d9e86218a
+Read port: 50696
+1654471378425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.3de2f607.js)
+1654471652864	Marionette	INFO	Stopped listening on port 50696
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1654471899217	geckodriver	INFO	Listening on 127.0.0.1:50812
+1654471902289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50813" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofiletXvVXi"
+*** You are running in headless mode.
+1654471902732	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50813
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofiletXvVXi\\search.json.mozlz4", (void 0)))
+1654471904242	Marionette	INFO	Listening on port 50836
+DevTools listening on ws://localhost:50813/devtools/browser/e3874100-a237-40e4-9e23-e487ac0f500f
+Read port: 50836
+1654471904361	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.3de2f607.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 222 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/loader.AppModules.6a035317.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+1654471933475	Marionette	INFO	Stopped listening on port 50836
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1654471998091	geckodriver	INFO	Listening on 127.0.0.1:50888
+1654472001152	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50889" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileJgydTd"
+*** You are running in headless mode.
+1654472001584	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50889
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileJgydTd\\search.json.mozlz4", (void 0)))
+1654472003091	Marionette	INFO	Listening on port 50912
+DevTools listening on ws://localhost:50889/devtools/browser/ad8e3a8e-3a32-452b-91d0-252397b0ebee
+Read port: 50912
+1654472003191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/onboarding/sso_init.json HTTP-0 codes:[1004] trace_ids:[null]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/jot/ces/p2 HTTP-0 codes:[1004] trace_ids:[null]
+1654472034153	Marionette	INFO	Stopped listening on port 50912
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1654472320494	geckodriver	INFO	Listening on 127.0.0.1:50992
+1654472323554	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileTc5StK"
+*** You are running in headless mode.
+1654472323991	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50993
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofileTc5StK\\search.json.mozlz4", (void 0)))
+1654472325552	Marionette	INFO	Listening on port 51016
+Read port: 51016
+1654472325602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:50993/devtools/browser/e540981d-e806-4aa8-a165-6f4922fd188e
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.3de2f607.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+1654472357193	Marionette	INFO	Stopped listening on port 51016
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

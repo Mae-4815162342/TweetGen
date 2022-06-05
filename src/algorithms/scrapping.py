@@ -1,9 +1,11 @@
 import time
 
+import selenium
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium import webdriver
 import pandas as pd
+import sys
 
 Nonotext = ['Les utilisateurs de Twitter sont les premiers à savoir.',
             "Affichez plus d'informations sur vos choix",
@@ -37,13 +39,11 @@ class TwitterBot:
         bot.get(url + name + "/with_replies")
         URL = bot.current_url
         if URL != url + name + "/with_replies":
-            print("Error page")
-            return "error= user doesnt exist"
+            return "error=This user does'nt seem to exist :/"
 
         links = []
         bot.refresh()
-        for i in range(150):
-            print(i)
+        for i in range(5):
             try:
                 bot.execute_script('window.scrollTo(0, document.body.scrollHeight)')
                 time.sleep(3)
@@ -52,22 +52,16 @@ class TwitterBot:
 
                 links = links + [elem.text for elem in tweets if (len(elem.text) > 30) and valid_tweet(elem.text)]
             except Exception:
-                print("exception")
                 continue
         valid_links = [link for link in links if link is not None]
         valid_links = clean_text(valid_links)
         bot.quit()
-        print("nb of elements: ", len(valid_links))
         df = pd.DataFrame(valid_links)
-        df.to_csv('../data/tweets.csv', index=False)
-        print("nb of elements: ", len(valid_links))
-        print(valid_links)
+        df.to_csv('./src/data/tweets.csv', index=False)
         return "name=" + name
 
-if __name__ == '__main__':
-
-    print("Please enter your account name : ")
-    name = str(input())
-    print(name)
+def scrapping(name):
     ias = TwitterBot()
-    ias.get_tweet(name)
+    return ias.get_tweet(name)
+
+print(scrapping(sys.argv[1]))
