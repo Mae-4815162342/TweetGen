@@ -5,7 +5,6 @@ import pandas as pd
 
 def creationDic(listString):
     listLen = []
-    #ajouter un compteur de longueur
     for string in listString:
         maList = string.split(" ")
         listLen.append(len(maList))
