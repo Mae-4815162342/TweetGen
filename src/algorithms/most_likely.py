@@ -18,7 +18,6 @@ def creationDic(listString):
             last_word[maList[-1]]=1    
         for i in range(len(maList)-1) :
             if ( maList[i] in dict ):
-                #aug score
                 value= dict[maList[i]]
                 if ( maList[i+1] in value):
                     value[maList[i+1]]+=1
