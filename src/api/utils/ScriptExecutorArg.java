@@ -20,6 +20,7 @@ public class ScriptExecutorArg extends Task<String>{
     public String call() throws Exception {
         String currentPath = new java.io.File(".").getCanonicalPath() + "\\src\\algorithms\\" + scriptName + ".py";
         String res = ""; 
+        System.out.println("calling : " + currentPath  );
         try{
             ProcessBuilder pb = new ProcessBuilder(Arrays.asList(pythonPath, currentPath, arg));
             pb.redirectErrorStream(true);

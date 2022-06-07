@@ -71,8 +71,8 @@ last_word = {}
 lenAVG = 25
 strFinal = ""
 
-print(most_likely())
-    
+print("res=", most_likely())
+
                 
         
                     

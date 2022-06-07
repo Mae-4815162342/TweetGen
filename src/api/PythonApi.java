@@ -59,8 +59,14 @@ public class PythonApi {
         script.valueProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue<? extends String> observableStringValue, String oldValue, String newValue) {
-                app.updateTweet(newValue);
-                app.setAlgoInExecution(false);
+                String[] val = newValue.split("=");
+                System.out.println(val[0] + val[1]);
+                if(val[0].equals("res")) {
+                    app.updateTweet(val[1]);
+                    app.setAlgoInExecution(false);
+                }  else {
+                    System.out.println(newValue);
+                }    
             }
         });
         Thread scriptThread = new Thread(script);
@@ -73,12 +79,17 @@ public class PythonApi {
         if(script != null && script.isRunning()) {
             script.cancel();
         }
-        script = new ScriptExecutor("C:/Users/maely/AppData/Local/Programs/Python/Python310/python.exe", algoName);
+        script = new ScriptExecutor(pythonPath, algoName);
         script.valueProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue<? extends String> observableStringValue, String oldValue, String newValue) {
-                app.updateTweet(newValue);
-                app.setAlgoInExecution(false);
+                String[] val = newValue.split("=");
+                if(val[0].equals("res")) {
+                    app.updateTweet(val[1]);
+                    app.setAlgoInExecution(false);
+                }  else {
+                    System.out.println(newValue);
+                }              
             }
         });
         Thread scriptThread = new Thread(script);

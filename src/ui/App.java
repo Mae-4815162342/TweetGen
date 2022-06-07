@@ -18,7 +18,8 @@ public class App extends Application{
     private LoadingController loadingController;
     private Scene generate;
     private GenerateViewController generateController;
-    private final String pythonPath = "C:/Users/maely/AppData/Local/Microsoft/WindowsApps/python.exe";
+    private Boolean scrap;
+    private final String pythonPath = "C:/Users/maely/AppData/Local/Microsoft/WindowsApps/python3.10.exe";
 
     public static void main(String[] args) {
         launch(args);
@@ -26,6 +27,7 @@ public class App extends Application{
 
     @Override
     public void start(Stage st) {
+        scrap = false;
         stage = st;
         api = new PythonApi(this, pythonPath);
         try {
@@ -78,7 +80,15 @@ public class App extends Application{
         loadingController.setError(false, null);
         stage.setScene(loading);
         stage.show();
-        api.scrap(name);
+        if(scrap) {
+            api.scrap(name);
+        } else {
+            api.clean(name);
+        }
+    }
+
+    public void setScrap(Boolean bool) {
+        scrap = bool;
     }
 
     public void updateScrap(String val) {

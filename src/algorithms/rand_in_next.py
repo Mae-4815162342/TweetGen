@@ -18,7 +18,6 @@ def get_next_word_naive_impl(word, all_words, used_words, lim_per_word):
             next_word = False
         if w == word:
             next_word = True
-    print(words_next)
     if len(words_next) == 0:
         return "_"
     if len(words_next) == 1:
@@ -43,8 +42,6 @@ def rand_in_next():
     used_words = {}
     lim_per_word = 1
     while (len(current_word) > 0) & (current_word != "_") & (i < 50):
-        print('ok', i)
-        print(current_word)
         res += " " + current_word
         i += 1
         if current_word in used_words:
@@ -54,4 +51,6 @@ def rand_in_next():
         current_word = get_next_word_naive_impl(current_word, text, used_words, lim_per_word)
     return res
 
-print(rand_in_next())
+res = rand_in_next()
+res = res[1].upper() + res[1:] + '.'
+print("res=",res)

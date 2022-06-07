@@ -332,3 +332,61 @@ JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1654513522889	geckodriver	INFO	Listening on 127.0.0.1:51776
+1654513525973	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51777" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofilec5HN42"
+*** You are running in headless mode.
+1654513526840	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51777
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofilec5HN42\\search.json.mozlz4", (void 0)))
+1654513529834	Marionette	INFO	Listening on port 51799
+Read port: 51799
+1654513530169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:51777/devtools/browser/105f5b20-bea7-4c6c-a513-920bc6ebd30e
+JavaScript error: https://twitter.com/CNRS/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/CNRS/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/CNRS/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://twitter.com/CNRS/with_replies, line 131: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.3de2f607.js)
+JavaScript error: https://twitter.com/CNRS/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.0394cd17.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.04610077.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+[Child 8064, MediaDecoderStateMachine #1] WARNING: 2b2c039f8a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:317
+1654513858576	Marionette	INFO	Stopped listening on port 51799
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1654602909908	geckodriver	INFO	Listening on 127.0.0.1:59853
+1654602912975	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "59854" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofile60Amqz"
+*** You are running in headless mode.
+1654602913643	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:59854
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maely\\AppData\\Local\\Temp\\rust_mozprofile60Amqz\\search.json.mozlz4", (void 0)))
+1654602915563	Marionette	INFO	Listening on port 59879
+DevTools listening on ws://localhost:59854/devtools/browser/8cbb2534-e280-4921-b286-b2a810c46fb7
+Read port: 59879
+1654602915674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.185ab587.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.185ab587.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.185ab587.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 171 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.ac5c9dd7.js)
+JavaScript error: https://twitter.com/elonmusk/with_replies, line 131: ChunkLoadError: Loading chunk 0 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/sharedCore.185ab587.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.2d95c527.js, line 12: Error: ApiError: https://twitter.com/i/api/1.1/attribution/event.json HTTP-403 codes:[1003] trace_ids:[null]
+[Child 11300, MediaDecoderStateMachine #1] WARNING: 24a5698b460 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:317
+[Child 11300, MediaDecoderStateMachine #1] WARNING: 24a5698b460 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:317
+[Child 11300, MediaDecoderStateMachine #1] WARNING: 24a5aee8ab0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:317
+[Child 11300, MediaDecoderStateMachine #1] WARNING: 24a5b7d8ab0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:317
+1654603263602	Marionette	INFO	Stopped listening on port 59879
+[Parent 10056, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
