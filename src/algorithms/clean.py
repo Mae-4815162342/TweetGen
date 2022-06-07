@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 import pandas as pd
 import numpy as np
 import re
@@ -12,9 +11,9 @@ def regex(line):
     for f in re.findall('#+[^\s]+[\w]', line):
         line = line.replace(f, '')
     #suppressing special characters and ponctuation
-    line = re.sub('[^A-Za-z0-9]+', ' ', line)
+    line = re.sub('[^A-Za-z0-9Ü-ü]+', ' ', line)
     #to lowercase
-    return line.lower()
+    return line
 
 def clean(name):
     datas = pd.read_csv("./src/data/tweets.csv")

@@ -1,5 +1,3 @@
-import time
-
 import selenium
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
@@ -43,7 +41,7 @@ class TwitterBot:
 
         links = []
         bot.refresh()
-        for i in range(5):
+        for i in range(100):
             try:
                 bot.execute_script('window.scrollTo(0, document.body.scrollHeight)')
                 time.sleep(3)

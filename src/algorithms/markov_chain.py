@@ -12,4 +12,6 @@ def markov_chain(state_size):
         sentence = model.make_short_sentence(10000)
     return sentence
 
-print(markov_chain(sys.argv[1]))
+res = markov_chain(sys.argv[1])
+res = res[0].upper() + res[1:] + '.'
+print("res=",res)

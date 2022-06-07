@@ -52,4 +52,6 @@ def highter_freq():
         current_word = get_next_word_naive_impl(current_word, text, used_words, lim_per_word)
     return res
     
-print(highter_freq())
+res = highter_freq()
+res = res[0].upper() + res[1:] + '.'
+print("res=",res)

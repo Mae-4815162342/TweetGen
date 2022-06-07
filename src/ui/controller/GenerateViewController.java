@@ -11,9 +11,9 @@ import ui.App;
 public class GenerateViewController {
     public App app;
     public String username;
-    public String[] algorithms = {"rand_in_next", "highter_freq", "markov_chain","most_likely"};
+    public String[] algorithms = {"rand_in_next", "highter_freq", "markov_chain","most_likely", "nn"};
     public String[] markovArgs = {"1", "2", "3", "4", "5"};
-    public String[] gansArgs = {"10", "20", "30", "40", "50"};
+    public String[] ennArgs = {"10", "50", "100"};
     public String chosenAlgorithm; 
     public String chosenArg;
     public Boolean hasArg = false;
@@ -63,9 +63,9 @@ public class GenerateViewController {
             this.selectArg.setOnAction(this::markovSelectArg);
             this.selectArg.setVisible(true);
             this.hasArg = true;
-        } else if(this.chosenAlgorithm.equals("gans")) {
-            this.selectArg.getItems().addAll(this.gansArgs);
-            //this.selectArg.setOnAction(this::gansArg);
+        } else if(this.chosenAlgorithm.equals("nn")) {
+            this.selectArg.getItems().addAll(this.ennArgs);
+            this.selectArg.setOnAction(this::ennSelectArg);
             this.selectArg.setVisible(true);
             this.hasArg = true;
         } else {
@@ -75,6 +75,10 @@ public class GenerateViewController {
     }
 
     public void markovSelectArg(ActionEvent event) {
+        this.chosenArg = this.selectArg.getValue();
+    }
+
+    public void ennSelectArg(ActionEvent event) {
         this.chosenArg = this.selectArg.getValue();
     }
 
@@ -95,6 +99,7 @@ public class GenerateViewController {
     }
 
     public void setTweet(String val) {
+        System.out.println(val);
         this.tweetLabel.setText(val);
     }
 
