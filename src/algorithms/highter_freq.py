@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import random 
+from ponctuation import ponctuation
 
 #higher_freq will evaluate from a word which word appears most afterwards in the dataset,
 #therefore building a tweet from a statistical approach
@@ -54,4 +55,4 @@ def highter_freq():
     
 res = highter_freq()
 res = res[0].upper() + res[1:] + '.'
-print("res=",res)
+print("res=",ponctuation(res))

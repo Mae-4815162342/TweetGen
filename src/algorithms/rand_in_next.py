@@ -3,6 +3,7 @@
 
 import pandas as pd
 import random
+from ponctuation import ponctuation
 
 def get_text_table():
     datas = pd.read_csv("./src/data/cleaned.csv")
@@ -53,4 +54,4 @@ def rand_in_next():
 
 res = rand_in_next()
 res = res[1].upper() + res[1:] + '.'
-print("res=",res)
+print("res=",ponctuation(res))

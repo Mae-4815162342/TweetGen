@@ -8,6 +8,7 @@ import gensim
 import pandas as pd
 import numpy as np
 import sys
+from ponctuation import ponctuation
 
 def tokenisation(line):
     #supressing links
@@ -113,4 +114,4 @@ def embedding_in_nn(epochs):
 
 res = embedding_in_nn(sys.argv[1])
 res = res[1].upper() + res[1:] + '.'
-print("res=", res)
+print("res=", ponctuation(res))

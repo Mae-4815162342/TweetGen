@@ -7,4 +7,4 @@ def ponctuation(text):
     result = first + result[1:]
     return result
 
-ponctuation("hello")
+print(ponctuation("hello i love potatoes and you"))
